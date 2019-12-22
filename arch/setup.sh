@@ -28,5 +28,5 @@ pacstrap /mnt netctl iw wpa_supplicant dialog wpa_actiond
 
 genstab -U /mnt >> /mnt/etc/fstab
 
-echo "Run arch-chroot /mnt"
+arch-chroot /mnt
 
